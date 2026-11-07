@@ -1,0 +1,22 @@
+[project]
+name = "props-lab"
+version = "0.1.0"
+description = "Player-prop arbitrage, middles, and +EV finder that builds line history"
+requires-python = ">=3.9"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+props = "props.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["props"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

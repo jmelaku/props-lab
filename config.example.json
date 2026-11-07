@@ -1,0 +1,26 @@
+{
+  "sport": "basketball_nba",
+  "markets": [
+    "player_points",
+    "player_rebounds",
+    "player_assists"
+  ],
+  "regions": "us",
+  "bookmakers": null,
+  "hours_ahead": 36,
+  "max_events": 15,
+  "db_path": "data/props.db",
+  "min_credits_remaining": 25,
+  "scan": {
+    "min_arb_profit": 0.0,
+    "max_middle_cost": 0.03,
+    "min_middle_width": 1,
+    "min_ev": 0.03,
+    "min_consensus_books": 3,
+    "devig": "multiplicative"
+  },
+  "bankroll_usd": 200.0,
+  "arb_stake_usd": 100.0,
+  "kelly_fraction": 0.1,
+  "aliases": {}
+}
